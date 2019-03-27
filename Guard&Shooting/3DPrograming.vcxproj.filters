@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>c2d376cd-01d3-4161-ae70-8caf697a9abf</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>33d27b96-0970-45dd-ba5c-04a726dfdc18</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Task">
+      <UniqueIdentifier>{68888aaf-4bd2-4bcf-8534-739625fe37fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{e6f6f765-6f9d-4219-80d6-cdc9deeef174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{fead1c37-3f63-4304-904f-58764a27df50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utiliy">
+      <UniqueIdentifier>{1a41692e-0234-478e-adf8-6f03a84ffa8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{8818aff8-beb4-4f17-89cb-3ff545bd83b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI">
+      <UniqueIdentifier>{7531fcad-f13b-4d90-9f11-ac327b99143c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Control">
+      <UniqueIdentifier>{36c6d6c0-9bf2-4bfa-bf24-b253b9b5abbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{db237715-22c9-4308-b135-b1adafc28ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{b4019d77-c7b1-46a9-9ac4-65f997bdadb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{b3ed73af-3e3c-4bbb-a570-bbb7cfb8c5b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Ball">
+      <UniqueIdentifier>{ed7e1dad-54c0-4a52-b6fc-7d49f56024bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\BaseModel">
+      <UniqueIdentifier>{47ecf754-04ff-4b95-be5d-c44282d6f157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\BWall">
+      <UniqueIdentifier>{294a0280-92d9-4753-a20c-9cf7064f37e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Cpu">
+      <UniqueIdentifier>{9b91d538-4360-4b43-b27c-700ec88421ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Model">
+      <UniqueIdentifier>{2ff59ebf-0417-4aa2-91b7-1dbcfb36c058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Player">
+      <UniqueIdentifier>{6166f49d-7eb6-456a-a91e-881bfc54d209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\SkyBox">
+      <UniqueIdentifier>{5fae96c0-855b-4fd1-ad29-e429b094e2c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Floor">
+      <UniqueIdentifier>{6835c6bb-a222-40ef-8c79-ffdb4d4ddf6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ADX2">
+      <UniqueIdentifier>{96463a48-c930-4b41-9c1d-5ba627440ee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ADX2\lib">
+      <UniqueIdentifier>{048e362f-e535-478f-9a26-f62514e22ba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle">
+      <UniqueIdentifier>{97ed169a-adaf-4c87-8051-5b9ed51d9743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{873d5245-0b82-4104-b23e-50081fdb4c05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{90c1991f-5753-43ba-a438-647cf7daf014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{238c8ae4-e157-41f3-aba9-803818cf8a9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Models">
+      <UniqueIdentifier>{bcb32c0a-c58a-4d99-b966-724564600780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Models\Wall">
+      <UniqueIdentifier>{6e192d32-8d0a-45b0-8704-fb2233c1cc65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures">
+      <UniqueIdentifier>{df13dccc-f095-428d-9b2c-8703f664ee5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures\key">
+      <UniqueIdentifier>{cbc4acf8-b6cf-4d04-bd2f-ebfafdc0d143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures\PlayScene">
+      <UniqueIdentifier>{460c085c-1c36-4936-bd48-c49815f8d934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures\ResultScene">
+      <UniqueIdentifier>{16bcc9ae-a9ff-45b6-b2d1-6dca129d73ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures\TitleScene">
+      <UniqueIdentifier>{c01b0e55-c6c5-4a17-b06a-e841c6b44d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\TWall">
+      <UniqueIdentifier>{a2605322-0a5d-4eb6-8ef6-d61d36b05435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI\Time">
+      <UniqueIdentifier>{a2d7d57c-ee05-436f-b4a8-4be7a6b56432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI\JudgeUI">
+      <UniqueIdentifier>{4b52106f-3138-40e1-a829-c6c84895a35f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI\KeyOperationUI">
+      <UniqueIdentifier>{fea6fc02-5b07-40e5-87fa-668f8453b628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI\InstructionkeyUI">
+      <UniqueIdentifier>{c2432e9b-8f6b-4bde-a8a0-da43dd855dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI\PleaseSpaceUI">
+      <UniqueIdentifier>{7c03bc33-d4f2-48b6-8e7d-479c5ed42f24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI\BackGround">
+      <UniqueIdentifier>{1d485ccf-3e51-4f55-8cee-6fda3a555f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI\Name">
+      <UniqueIdentifier>{5851bad9-d93e-44e2-9945-583e8d87b60b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI\WhoOniUI">
+      <UniqueIdentifier>{26271bdb-f8d7-4f97-a051-9ecd10b27113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI\StaminaUI">
+      <UniqueIdentifier>{424ed555-5003-4fec-9c43-268ff76f326e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Sound">
+      <UniqueIdentifier>{540d66af-de7b-4ece-a0f4-9a88655a6de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyNeuralNetwork">
+      <UniqueIdentifier>{54671904-8073-49fc-ab50-bfdd584c3b66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Shadow">
+      <UniqueIdentifier>{84ad968f-a5f5-4197-aab0-e7ece4d81b82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI\TeachPlayStartUI">
+      <UniqueIdentifier>{29aef70d-6985-476e-af3b-3c37bff23b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI\CountDownUI">
+      <UniqueIdentifier>{7331581c-32a4-4498-be76-8b44f09cb674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI\StartSign">
+      <UniqueIdentifier>{a31836b9-ff9e-4857-bde4-b9d4f5641bd4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCamera.h" />
+    <ClInclude Include="GridFloor.h" />
+    <ClInclude Include="TaskSystem\TaskBase.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskSystem\TaskManager.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskSystem\TaskNode.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskSystem\TaskNodeHandle.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\StartScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Play\PlayScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Title\TitleScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Result\ResultScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Draw3DManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\DrawManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\inputmanager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Flag.h">
+      <Filter>Utiliy</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\SingletonBase.h">
+      <Filter>Utiliy</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Utiliy.h">
+      <Filter>Utiliy</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\Control.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\keyboard_control.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Draw3DData.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\Collision.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\CollisionBox.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\CollisionCapsule.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\MyCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\Ball\Ball.h">
+      <Filter>GameObject\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\Model\BaseModel.h">
+      <Filter>GameObject\BaseModel</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\Wall\Plane\BoardWall.h">
+      <Filter>GameObject\BWall</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\Cpu\Cpu.h">
+      <Filter>GameObject\Cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\Model\modelmanager.h">
+      <Filter>GameObject\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\Player\Player.h">
+      <Filter>GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\SkyBox\SkyBox.h">
+      <Filter>GameObject\SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\Floor\Floor.h">
+      <Filter>GameObject\Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="ADX2\ADX2Le.h">
+      <Filter>ADX2</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\WallManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryFile.h" />
+    <ClInclude Include="GameObj\UI\gametime.h">
+      <Filter>GameObject\UI\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\UI\imageinstructionkey.h">
+      <Filter>GameObject\UI\InstructionkeyUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\UI\JudgeUI.h">
+      <Filter>GameObject\UI\JudgeUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\UI\keyoperationui.h">
+      <Filter>GameObject\UI\KeyOperationUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\UI\pleasespaceui.h">
+      <Filter>GameObject\UI\PleaseSpaceUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\UI\resultname.h">
+      <Filter>GameObject\UI\Name</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\UI\resultbackground.h">
+      <Filter>GameObject\UI\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\UI\titlebackground.h">
+      <Filter>GameObject\UI\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\UI\staminaber.h">
+      <Filter>GameObject\UI\StaminaUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\UI\titlename.h">
+      <Filter>GameObject\UI\Name</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\UI\resultwhooni.h">
+      <Filter>GameObject\UI\WhoOniUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\Myeffect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Sounds\BallOni_acf.h">
+      <Filter>Resources\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Sounds\PlaySceneCue.h">
+      <Filter>Resources\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Sounds\ResultSceneCue.h">
+      <Filter>Resources\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Sounds\TitleSceneCue.h">
+      <Filter>Resources\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect\EffectManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MyNeuralNetwork\MyNeuralNetwork.h">
+      <Filter>MyNeuralNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\Shadow\Shadow.h">
+      <Filter>GameObject\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\CollisionManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\UI\teachplaystartui.h">
+      <Filter>GameObject\UI\TeachPlayStartUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\UI\CountDownUI.h">
+      <Filter>GameObject\UI\CountDownUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj\UI\StartSign.h">
+      <Filter>GameObject\UI\StartSign</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugCamera.cpp" />
+    <ClCompile Include="GridFloor.cpp" />
+    <ClCompile Include="TaskSystem\TaskBase.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskSystem\TaskManager.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskSystem\TaskNode.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskSystem\TaskNodeHandle.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\StartScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Play\PlayScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Title\TitleScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Result\ResultScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\Draw3DManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\DrawManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\InputManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\Keyboard_Control.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CollisionBox.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CollisionCapsule.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CollisionSphere.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\MyCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\Ball\Ball.cpp">
+      <Filter>GameObject\Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\Model\BaseModel.cpp">
+      <Filter>GameObject\BaseModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\Wall\Plane\BoardWall.cpp">
+      <Filter>GameObject\BWall</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\Cpu\Cpu.cpp">
+      <Filter>GameObject\Cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\Model\ModelManager.cpp">
+      <Filter>GameObject\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\Player\Player.cpp">
+      <Filter>GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\SkyBox\SkyBox.cpp">
+      <Filter>GameObject\SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\Floor\Floor.cpp">
+      <Filter>GameObject\Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\WallManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryFile.cpp" />
+    <ClCompile Include="GameObj\UI\GameTime.cpp">
+      <Filter>GameObject\UI\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\UI\ImageInstructionKey.cpp">
+      <Filter>GameObject\UI\InstructionkeyUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\UI\JudgeUI.cpp">
+      <Filter>GameObject\UI\JudgeUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\UI\KeyOperationUI.cpp">
+      <Filter>GameObject\UI\KeyOperationUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\UI\PleaseSpaceUI.cpp">
+      <Filter>GameObject\UI\PleaseSpaceUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\UI\ResultName.cpp">
+      <Filter>GameObject\UI\Name</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\UI\ResultBackGround.cpp">
+      <Filter>GameObject\UI\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\UI\TitleBackGround.cpp">
+      <Filter>GameObject\UI\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\UI\StaminaBer.cpp">
+      <Filter>GameObject\UI\StaminaUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\UI\TitleName.cpp">
+      <Filter>GameObject\UI\Name</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\UI\ResultWhoOni.cpp">
+      <Filter>GameObject\UI\WhoOniUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ADX2\ADX2Le.cpp">
+      <Filter>ADX2</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\MyEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\EffectManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MyNeuralNetwork\MyNeuralNetwork.cpp">
+      <Filter>MyNeuralNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\Shadow\Shadow.cpp">
+      <Filter>GameObject\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\CollisionManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\UI\TeachPlayStartUI.cpp">
+      <Filter>GameObject\UI\TeachPlayStartUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\UI\CountDownUI.cpp">
+      <Filter>GameObject\UI\CountDownUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj\UI\StartSign.cpp">
+      <Filter>GameObject\UI\StartSign</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Resources\Textures\time.png">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Textures\key\Down.png">
+      <Filter>Resources\Textures\key</Filter>
+    </Image>
+    <Image Include="Resources\Textures\key\Ekey.png">
+      <Filter>Resources\Textures\key</Filter>
+    </Image>
+    <Image Include="Resources\Textures\key\InstructionKey_E.png">
+      <Filter>Resources\Textures\key</Filter>
+    </Image>
+    <Image Include="Resources\Textures\key\InstructionKey_Move.png">
+      <Filter>Resources\Textures\key</Filter>
+    </Image>
+    <Image Include="Resources\Textures\key\InstructionKey_Q.png">
+      <Filter>Resources\Textures\key</Filter>
+    </Image>
+    <Image Include="Resources\Textures\key\Left.png">
+      <Filter>Resources\Textures\key</Filter>
+    </Image>
+    <Image Include="Resources\Textures\key\Qkey.png">
+      <Filter>Resources\Textures\key</Filter>
+    </Image>
+    <Image Include="Resources\Textures\key\Right.png">
+      <Filter>Resources\Textures\key</Filter>
+    </Image>
+    <Image Include="Resources\Textures\key\Up.png">
+      <Filter>Resources\Textures\key</Filter>
+    </Image>
+    <Image Include="Resources\Textures\PlayScene\BackStaminaGauge.png">
+      <Filter>Resources\Textures\PlayScene</Filter>
+    </Image>
+    <Image Include="Resources\Textures\PlayScene\CountDown.png">
+      <Filter>Resources\Textures\PlayScene</Filter>
+    </Image>
+    <Image Include="Resources\Textures\PlayScene\JudgeCpu.png">
+      <Filter>Resources\Textures\PlayScene</Filter>
+    </Image>
+    <Image Include="Resources\Textures\PlayScene\JudgePlayer.png">
+      <Filter>Resources\Textures\PlayScene</Filter>
+    </Image>
+    <Image Include="Resources\Textures\PlayScene\oni.png">
+      <Filter>Resources\Textures\PlayScene</Filter>
+    </Image>
+    <Image Include="Resources\Textures\PlayScene\stamina_name.png">
+      <Filter>Resources\Textures\PlayScene</Filter>
+    </Image>
+    <Image Include="Resources\Textures\PlayScene\StaminaGauge.png">
+      <Filter>Resources\Textures\PlayScene</Filter>
+    </Image>
+    <Image Include="Resources\Textures\ResultScene\OniResult_EnemeyWin.png">
+      <Filter>Resources\Textures\ResultScene</Filter>
+    </Image>
+    <Image Include="Resources\Textures\ResultScene\OniResult_playerWin.png">
+      <Filter>Resources\Textures\ResultScene</Filter>
+    </Image>
+    <Image Include="Resources\Textures\ResultScene\PleaseSpace.png">
+      <Filter>Resources\Textures\ResultScene</Filter>
+    </Image>
+    <Image Include="Resources\Textures\ResultScene\Result.png">
+      <Filter>Resources\Textures\ResultScene</Filter>
+    </Image>
+    <Image Include="Resources\Textures\ResultScene\ResultBackGround.png">
+      <Filter>Resources\Textures\ResultScene</Filter>
+    </Image>
+    <Image Include="Resources\Textures\TitleScene\gura.png">
+      <Filter>Resources\Textures\TitleScene</Filter>
+    </Image>
+    <Image Include="Resources\Textures\TitleScene\PleaseSpace.png">
+      <Filter>Resources\Textures\TitleScene</Filter>
+    </Image>
+    <Image Include="Resources\Textures\TitleScene\Title.png">
+      <Filter>Resources\Textures\TitleScene</Filter>
+    </Image>
+    <Image Include="Resources\Textures\TitleScene\TitleName.png">
+      <Filter>Resources\Textures\TitleScene</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="ADX2\lib\cri_ware_pcx86_le_import.lib">
+      <Filter>ADX2\lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="ParticleGS.hlsl">
+      <Filter>Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticlePS.hlsl">
+      <Filter>Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticleVS.hlsl">
+      <Filter>Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticlePS_Title.hlsl">
+      <Filter>Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticleGS_Title.hlsl">
+      <Filter>Particle</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Particle.hlsli">
+      <Filter>Particle</Filter>
+    </None>
+    <None Include="Resources\Models\Ball.cmo">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\CP.cmo">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\GreenLawn.cmo">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\PL.cmo">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\rengbox.cmo">
+      <Filter>Resources\Models</Filter>
+    </None>
+    <None Include="Resources\Models\Wall\C_Wall.cmo">
+      <Filter>Resources\Models\Wall</Filter>
+    </None>
+    <None Include="Resources\Models\Wall\L_Wall.cmo">
+      <Filter>Resources\Models\Wall</Filter>
+    </None>
+    <None Include="Resources\Models\Wall\T_Wall.cmo">
+      <Filter>Resources\Models\Wall</Filter>
+    </None>
+    <None Include="Resources\Models\Wall\Wall.cmo">
+      <Filter>Resources\Models\Wall</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <MeshContentTask Include="FBX\CP.FBX">
+      <Filter>FBX</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\PL.FBX">
+      <Filter>FBX</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\Shadow.FBX">
+      <Filter>FBX</Filter>
+    </MeshContentTask>
+  </ItemGroup>
+</Project>
